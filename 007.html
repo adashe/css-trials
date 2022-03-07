@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+
+      h1 {
+        font-family: sans-serif;
+      }
+
+      .rectangle {
+        background-color: #555555;
+        height: 130px;
+        width: 600px;
+        margin-top: 10px;
+      }
+
+      .square {
+        background-color: #cccccc;
+        display: inline-block;
+        height: 118px;
+        margin: 6px;
+        margin-right: 0;
+      }
+
+      #top .square {
+        width: 32%;
+      }
+
+      #middle .square {
+        width: 23.75%;
+        vertical-align: top;
+      }
+
+      #middle .square:nth-child(2n) {
+        height: 75px;
+      }
+
+      #middle .square:nth-child(2n+1) {
+        height: 100px;
+      }
+
+      #bottom .square {
+        width: 48.5%;
+      }
+
+      #bottom .square:nth-child(1) {
+        height: 35px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <h1>AAAAAHHHHHH</h1>
+
+      <div class="rectangle" id="top">
+
+        <div class="square"></div><!--
+     --><div class="square"></div><!--
+     --><div class="square"></div>
+
+      </div>
+
+      <div class="rectangle" id="middle">
+
+        <div class="square"></div><!--
+     --><div class="square"></div><!--
+     --><div class="square"></div><!--
+     --><div class="square"></div>
+
+      </div>      
+      
+      <div class="rectangle" id="bottom">
+
+        <div class="square"></div><!--
+     --><div class="square"></div>
+
+      </div>
+
+
+  </body>
+
+</html>
